@@ -22,7 +22,7 @@ async function run() {
     console.log("MongoDB connected successfully !");
 
 
-//     // ----------- Routes -----------
+    // ----------- Routes -----------
 //     app.use('/properties', propertiesRoutes);
 //     app.use('/auth', authRoutes);
 
