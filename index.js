@@ -39,7 +39,7 @@ async function run() {
       res.status(404).json({ success: false, message: "Route not found" });
     });
 
-//     // ----------- SERVER RUN -----------
+    // ----------- SERVER RUN -----------
 //     app.listen(port, () => {
 //       console.log(`Example app listening on port ${port}`)
 //     })
