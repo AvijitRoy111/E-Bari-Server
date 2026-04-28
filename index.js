@@ -6,7 +6,7 @@ const client = require('./src/helpers/client');
 require('dotenv').config()
 
 
-// // ----------- Import Routes -----------
+// ----------- Import Routes -----------
 // const propertiesRoutes = require('./src/routes/PropertiesRoutes');
 // const authRoutes = require('./src/routes/authRoutes');
 
