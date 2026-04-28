@@ -23,7 +23,7 @@ async function run() {
 
 
     // ----------- Routes -----------
-//     app.use('/properties', propertiesRoutes);
+    app.use('/properties', propertiesRoutes);
 //     app.use('/auth', authRoutes);
 
 
