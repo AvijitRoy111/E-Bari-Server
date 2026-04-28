@@ -29,9 +29,9 @@ async function run() {
 
     // ----------- Root --------------
     app.get('/', async(req, res) => {
-//       await client.db("admin").command({ ping: 1 })
-//       res.send('users managment server is running')
-//     })
+      await client.db("admin").command({ ping: 1 })
+      res.send('users managment server is running')
+    })
 
 
 //     // ----------- 404 -----------
