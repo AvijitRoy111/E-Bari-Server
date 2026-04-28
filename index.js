@@ -47,8 +47,8 @@ async function run() {
 
   }
   catch (error) {
-//     console.error("Error connecting to DB:", error);
-//   }
-// }
+    console.error("Error connecting to DB:", error);
+  }
+}
 // run().catch(console.dir);
 
