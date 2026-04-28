@@ -50,5 +50,5 @@ async function run() {
     console.error("Error connecting to DB:", error);
   }
 }
-// run().catch(console.dir);
+run().catch(console.dir);
 
