@@ -12,8 +12,8 @@ require('dotenv').config()
 
 
 
-// // ----------- MIDDLEWARES -----------
-// app.use(cors());
+// ----------- MIDDLEWARES -----------
+app.use(cors());
 // app.use(express.json());
 
 // async function run() {
