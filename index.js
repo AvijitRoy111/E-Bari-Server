@@ -34,8 +34,8 @@ async function run() {
     })
 
 
-//     // ----------- 404 -----------
-//     app.use((req, res) => {
+    // ----------- 404 -----------
+    app.use((req, res) => {
 //       res.status(404).json({ success: false, message: "Route not found" });
 //     });
 
