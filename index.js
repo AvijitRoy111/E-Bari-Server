@@ -24,7 +24,7 @@ async function run() {
 
     // ----------- Routes -----------
     app.use('/properties', propertiesRoutes);
-//     app.use('/auth', authRoutes);
+    app.use('/auth', authRoutes);
 
 
     // ----------- Root --------------
