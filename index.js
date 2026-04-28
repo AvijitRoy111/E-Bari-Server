@@ -16,10 +16,10 @@ require('dotenv').config()
 app.use(cors());
 app.use(express.json());
 
-// async function run() {
-//   try {
-//     await client.connect();
-//     console.log("MongoDB connected successfully !");
+async function run() {
+  try {
+    await client.connect();
+    console.log("MongoDB connected successfully !");
 
 
 //     // ----------- Routes -----------
