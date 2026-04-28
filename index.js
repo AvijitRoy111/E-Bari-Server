@@ -27,8 +27,8 @@ async function run() {
 //     app.use('/auth', authRoutes);
 
 
-//     // ----------- Root --------------
-//     app.get('/', async(req, res) => {
+    // ----------- Root --------------
+    app.get('/', async(req, res) => {
 //       await client.db("admin").command({ ping: 1 })
 //       res.send('users managment server is running')
 //     })
