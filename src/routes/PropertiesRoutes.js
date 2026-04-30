@@ -8,4 +8,4 @@ const router = express.Router();
 
 router.get('/', getProperties);
 
-// module.exports = router;
+module.exports = router;
