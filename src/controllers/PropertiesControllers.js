@@ -11,7 +11,7 @@ const getProperties = async (req, res) =>{
 
 }
 
-// module.exports = {
+module.exports = {
 //     getProperties,
     
 // }
