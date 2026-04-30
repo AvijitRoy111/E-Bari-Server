@@ -1,6 +1,6 @@
 const express = require('express');
 const {
-//     getProperties,
+    getProperties,
 
 // } = require('../controllers/PropertiesControllers');
 
