@@ -5,7 +5,7 @@ const {
 } = require('../controllers/authController')
 
 
-// const router = express.Router();
+const router = express.Router();
 
 // router.post('/create-user', createUser);
 
