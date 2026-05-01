@@ -1,11 +1,11 @@
-const express = require('express');
-const {
-    getProperties,
+// const express = require('express');
+// const {
+//     getProperties,
 
-} = require('../controllers/PropertiesControllers');
+// } = require('../controllers/PropertiesControllers');
 
-const router = express.Router();
+// const router = express.Router();
 
-router.get('/', getProperties);
+// router.get('/', getProperties);
 
-module.exports = router;
+// module.exports = router;
