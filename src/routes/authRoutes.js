@@ -2,7 +2,7 @@ const express = require('express');
 const {
     createUser,
 
-// } = require('../controllers/authController')
+} = require('../controllers/authController')
 
 
 // const router = express.Router();
