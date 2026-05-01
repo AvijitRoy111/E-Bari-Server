@@ -1,12 +1,12 @@
-const express = require('express');
-const {
-    createUser,
+// const express = require('express');
+// const {
+//     createUser,
 
-} = require('../controllers/authController')
+// } = require('../controllers/authController')
 
 
-const router = express.Router();
+// const router = express.Router();
 
-router.post('/create-user', createUser);
+// router.post('/create-user', createUser);
 
-module.exports = router;
+// module.exports = router;
