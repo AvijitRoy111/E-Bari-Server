@@ -10,7 +10,7 @@ const createUser = async (req , res ) =>{
     res.status(200).json({success:true, message:"user created successfully", data:result});
 }
 
-// module.exports = {
+module.exports = {
 //     createUser,
     
 // }
