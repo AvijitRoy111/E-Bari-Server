@@ -14,7 +14,7 @@ const authRoutes = require('./src/routes/authRoutes');
 
 // ----------- MIDDLEWARES -----------
 app.use(cors());
-// app.use(express.json());
+app.use(express.json());
 
 async function run() {
   try {
