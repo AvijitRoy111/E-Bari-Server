@@ -12,7 +12,7 @@ const authRoutes = require('./src/routes/authRoutes');
 
 
 
-// // ----------- MIDDLEWARES -----------
+// ----------- MIDDLEWARES -----------
 // app.use(cors());
 // app.use(express.json());
 
