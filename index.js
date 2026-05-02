@@ -7,14 +7,14 @@ require('dotenv').config()
 
 
 // ----------- Import Routes -----------
-const propertiesRoutes = require('./src/routes/PropertiesRoutes');
-const authRoutes = require('./src/routes/authRoutes');
+// const propertiesRoutes = require('./src/routes/PropertiesRoutes');
+// const authRoutes = require('./src/routes/authRoutes');
 
 
 
-// ----------- MIDDLEWARES -----------
-app.use(cors());
-app.use(express.json());
+// // ----------- MIDDLEWARES -----------
+// app.use(cors());
+// app.use(express.json());
 
 async function run() {
   try {
