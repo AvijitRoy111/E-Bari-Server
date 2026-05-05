@@ -55,10 +55,10 @@ const loginUser = async (req, res) => {
         
         if (!user) {
             return res.status(404).json({ 
-//                 success: false, 
-//                 message: "User not found! Please create an account." 
-//             });
-//         }
+                success: false, 
+                message: "User not found! Please create an account." 
+            });
+        }
 
 //         // ২. check password match
 //         if (user.password !== password) {
