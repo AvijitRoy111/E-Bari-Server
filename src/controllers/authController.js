@@ -64,9 +64,9 @@ const loginUser = async (req, res) => {
         if (user.password !== password) {
             return res.status(401).json({ 
                 success: false, 
-//                 message: "Invalid password! Please try again." 
-//             });
-//         }
+                message: "Invalid password! Please try again." 
+            });
+        }
 
 //         // ৩. if login successful
 //         const { password: _, ...userData } = user;
