@@ -50,11 +50,11 @@ const loginUser = async (req, res) => {
     try {
         const { email, password } = req.body;
 
-//         // ১. user find
-//         const user = await userCollection.findOne({ email: email });
+        // ১. user find
+        const user = await userCollection.findOne({ email: email });
         
-//         if (!user) {
-//             return res.status(404).json({ 
+        if (!user) {
+            return res.status(404).json({ 
 //                 success: false, 
 //                 message: "User not found! Please create an account." 
 //             });
