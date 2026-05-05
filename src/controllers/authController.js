@@ -37,10 +37,10 @@ const getCurrentUser = async (req, res) =>{
             success: false, 
             message: "User not found" 
         });
-//     }
-//     res.status(200).json({ 
-//         success: true, 
-//         message: "User found", 
+    }
+    res.status(200).json({ 
+        success: true, 
+        message: "User found", 
 //         data: user 
 //     });
 // }
