@@ -9,6 +9,8 @@ require('dotenv').config()
 // ----------- Import Routes -----------
 const propertiesRoutes = require('./src/routes/PropertiesRoutes');
 const authRoutes = require('./src/routes/authRoutes');
+const contactRoutes = require('./src/routes/contactRoutes');
+const bookingRoutes = require('./src/routes/bookingRoutes');
 
 
 
@@ -25,8 +27,10 @@ async function run() {
     // ----------- Routes -----------
     app.use('/properties', propertiesRoutes);
     app.use('/auth', authRoutes);
+    app.use('/contacts', contactRoutes);
+    app.use('/bookings', bookingRoutes);
 
-
+    
     // ----------- Root --------------
     app.get('/', async(req, res) => {
       await client.db("admin").command({ ping: 1 })
