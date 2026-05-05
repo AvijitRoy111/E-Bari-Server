@@ -41,9 +41,9 @@ const getCurrentUser = async (req, res) =>{
     res.status(200).json({ 
         success: true, 
         message: "User found", 
-//         data: user 
-//     });
-// }
+        data: user 
+    });
+}
 
 // // login user............
 // const loginUser = async (req, res) => {
