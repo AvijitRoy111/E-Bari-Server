@@ -45,10 +45,10 @@ const getCurrentUser = async (req, res) =>{
     });
 }
 
-// // login user............
-// const loginUser = async (req, res) => {
-//     try {
-//         const { email, password } = req.body;
+// login user............
+const loginUser = async (req, res) => {
+    try {
+        const { email, password } = req.body;
 
 //         // ১. user find
 //         const user = await userCollection.findOne({ email: email });
