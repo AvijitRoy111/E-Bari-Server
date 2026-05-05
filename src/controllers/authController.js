@@ -6,12 +6,12 @@ const userCollection = client.db('E-Bari').collection('Users');
 // create user............
 const createUser = async (req, res) => {
     try {
-//         const user = req.body;
-//         // ১. check if user already exists
-//         const existingUser = await userCollection.findOne({ email: user.email });
-//         if (existingUser) {
-//             return res.status(400).json({ 
-//                 success: false, 
+        const user = req.body;
+        // ১. check if user already exists
+        const existingUser = await userCollection.findOne({ email: user.email });
+        if (existingUser) {
+            return res.status(400).json({ 
+                success: false, 
 //                 message: "You already have an account! Please sign in now. " 
 //             });
 //         }
