@@ -1,11 +1,11 @@
-const express = require('express');
-const {
-    createContact
+// const express = require('express');
+// const {
+//     createContact
 
-} = require('../controllers/contactController');
+// } = require('../controllers/contactController');
 
-const router = express.Router();
+// const router = express.Router();
 
-router.post('/contact', createContact);
+// router.post('/contact', createContact);
 
-module.exports = router;
+// module.exports = router;
