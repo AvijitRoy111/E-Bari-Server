@@ -2,7 +2,7 @@ const express = require('express');
 const {
     createUser,
     getCurrentUser,
-//     loginUser
+    loginUser
 // } = require('../controllers/authController')
 
 
