@@ -6,6 +6,6 @@ const {
 
 const router = express.Router();
 
-// router.post('/contact', createContact);
+router.post('/contact', createContact);
 
 // module.exports = router;
