@@ -11,6 +11,6 @@ const createContact = async (req, res) =>{
 
 }
 
-// module.exports = {
-//     createContact
-// }
+module.exports = {
+    createContact
+}
