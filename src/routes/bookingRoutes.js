@@ -1,8 +1,8 @@
 const express = require('express');
 const {
-//     createBooking
+    createBooking
 
-// } = require('../controllers/bookingController');
+} = require('../controllers/bookingController');
 
 // const router = express.Router();
 
