@@ -1,5 +1,5 @@
-// const { ObjectId } = require('mongodb');
-// const client = require('../helpers/client');
+const { ObjectId } = require('mongodb');
+const client = require('../helpers/client');
 
 // const bookingCollection = client.db('E-Bari').collection('bookings');
 
