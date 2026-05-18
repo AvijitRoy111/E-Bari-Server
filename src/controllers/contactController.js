@@ -1,7 +1,7 @@
 const { ObjectId } = require('mongodb');
 const client = require('../helpers/client');
 
-// const contactCollection = client.db('E-Bari').collection('contacts');
+const contactCollection = client.db('E-Bari').collection('contacts');
 
 // // create contact .............
 // const createContact = async (req, res) =>{
