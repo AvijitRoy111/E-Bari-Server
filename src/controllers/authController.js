@@ -47,7 +47,7 @@ const createUser = async (req, res) => {
 
 // login user............
 const loginUser = async (req, res) => {
-//     try {
+    try {
 //         const { email, password } = req.body;
 
 //         // ১. user find
