@@ -43,7 +43,7 @@ const createUser = async (req, res) => {
         message: "User found", 
         data: user 
     });
-// }
+}
 
 // // login user............
 // const loginUser = async (req, res) => {
