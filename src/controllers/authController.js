@@ -34,7 +34,7 @@ const createUser = async (req, res) => {
     const user = await userCollection.findOne({email:email});
      if(!user){
          return res.status(404).json({ 
-//             success: false, 
+             success: false, 
 //             message: "User not found" 
 //         });
 //     }
