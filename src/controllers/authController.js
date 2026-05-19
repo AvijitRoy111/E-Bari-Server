@@ -51,7 +51,7 @@ const loginUser = async (req, res) => {
         const { email, password } = req.body;
 
         // ১. user find
-//         const user = await userCollection.findOne({ email: email });
+        const user = await userCollection.findOne({ email: email });
         
 //         if (!user) {
 //             return res.status(404).json({ 
