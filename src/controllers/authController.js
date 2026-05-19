@@ -38,7 +38,7 @@ const createUser = async (req, res) => {
              message: "User not found" 
          });
      }
-//     res.status(200).json({ 
+    res.status(200).json({ 
 //         success: true, 
 //         message: "User found", 
 //         data: user 
