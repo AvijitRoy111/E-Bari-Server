@@ -40,7 +40,7 @@ const createUser = async (req, res) => {
      }
     res.status(200).json({ 
         success: true, 
-//         message: "User found", 
+        message: "User found", 
 //         data: user 
 //     });
 // }
