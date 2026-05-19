@@ -45,7 +45,7 @@ const createUser = async (req, res) => {
     });
 }
 
-// // login user............
+// login user............
 // const loginUser = async (req, res) => {
 //     try {
 //         const { email, password } = req.body;
