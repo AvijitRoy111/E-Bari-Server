@@ -54,8 +54,8 @@ const loginUser = async (req, res) => {
         const user = await userCollection.findOne({ email: email });
         
          if (!user) {
-//             return res.status(404).json({ 
-//                 success: false, 
+             return res.status(404).json({ 
+                 success: false, 
 //                 message: "User not found! Please create an account." 
 //             });
 //         }
