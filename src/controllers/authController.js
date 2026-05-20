@@ -19,7 +19,7 @@ const createUser = async (req, res) => {
         const result = await userCollection.insertOne(user);
         res.status(200).json({ 
             success: true, 
-//             message: "Account created successfully! ", 
+            message: "Account created successfully! ", 
 //             data: result 
 //         });
         
