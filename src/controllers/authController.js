@@ -10,7 +10,7 @@ const createUser = async (req, res) => {
         // ১. check if user already exists
         const existingUser = await userCollection.findOne({ email: user.email });
         if (existingUser) {
-//             return res.status(400).json({ 
+            return res.status(400).json({ 
 //                 success: false, 
 //                 message: "You already have an account! Please sign in now. " 
 //             });
