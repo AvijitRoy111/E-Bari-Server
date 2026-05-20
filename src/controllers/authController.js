@@ -11,7 +11,7 @@ const createUser = async (req, res) => {
         const existingUser = await userCollection.findOne({ email: user.email });
         if (existingUser) {
             return res.status(400).json({ 
-//                 success: false, 
+                success: false, 
 //                 message: "You already have an account! Please sign in now. " 
 //             });
 //         }
