@@ -16,8 +16,8 @@ const createUser = async (req, res) => {
             });
         }
         // ২.create new user
-//         const result = await userCollection.insertOne(user);
-//         res.status(200).json({ 
+        const result = await userCollection.insertOne(user);
+        res.status(200).json({ 
 //             success: true, 
 //             message: "Account created successfully! ", 
 //             data: result 
