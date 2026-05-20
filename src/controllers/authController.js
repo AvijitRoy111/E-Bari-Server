@@ -24,7 +24,7 @@ const createUser = async (req, res) => {
         });
         
     } catch (error) {
-//         res.status(500).json({ success: false, message: "Internal Server Error" });
+        res.status(500).json({ success: false, message: "Internal Server Error" });
 //     }
 // }
 
