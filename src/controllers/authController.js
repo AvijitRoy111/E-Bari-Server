@@ -72,8 +72,8 @@ const loginUser = async (req, res) => {
          const { password: _, ...userData } = user;
          res.status(200).json({ 
              success: true, 
-//             message: "Sign in successful! Welcome back.", 
-//             user: userData 
+             message: "Sign in successful! Welcome back.", 
+             user: userData 
 //         });
 
 //     } catch (error) {
