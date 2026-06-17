@@ -12,5 +12,5 @@ const createBooking = async (req, res) =>{
 }
 
 module.exports = {
-//     createBooking
+    createBooking
 // }
