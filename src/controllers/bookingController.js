@@ -9,8 +9,8 @@ const createBooking = async (req, res) =>{
     const result = await bookingCollection.insertOne(booking);
     res.status(200).json({success:true, message:"booking created successfully", data:result});
 
-// }
+}
 
-// module.exports = {
+module.exports = {
 //     createBooking
 // }
