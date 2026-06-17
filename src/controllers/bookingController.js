@@ -7,7 +7,7 @@ const bookingCollection = client.db('E-Bari').collection('bookings');
 const createBooking = async (req, res) =>{
     const booking = req.body;
     const result = await bookingCollection.insertOne(booking);
-//     res.status(200).json({success:true, message:"booking created successfully", data:result});
+    res.status(200).json({success:true, message:"booking created successfully", data:result});
 
 // }
 
