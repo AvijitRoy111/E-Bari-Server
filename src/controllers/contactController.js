@@ -9,7 +9,7 @@ const createContact = async (req, res) =>{
     const result = await contactCollection.insertOne(contact);
     res.status(200).json({success:true, message:"contact created successfully", data:result});
 
-// }
+}
 
 // module.exports = {
 //     createContact
