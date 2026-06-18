@@ -5,7 +5,7 @@ const userCollection = client.db('E-Bari').collection('Users');
 
 // create user............
 const createUser = async (req, res) => {
-//     try {
+    try {
 //         const user = req.body;
 //         // ১. check if user already exists
 //         const existingUser = await userCollection.findOne({ email: user.email });
