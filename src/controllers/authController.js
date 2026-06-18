@@ -8,7 +8,7 @@ const createUser = async (req, res) => {
     try {
         const user = req.body;
         // ১. check if user already exists
-//         const existingUser = await userCollection.findOne({ email: user.email });
+        const existingUser = await userCollection.findOne({ email: user.email });
 //         if (existingUser) {
 //             return res.status(400).json({ 
 //                 success: false, 
