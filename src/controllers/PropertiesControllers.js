@@ -9,7 +9,7 @@ const getProperties = async (req, res) =>{
     const properties = await propertiesCollection.find().toArray();
     res.status(200).json({success:true, message:"all properties", data:properties});
 
-// }
+}
 
 // module.exports = {
 //     getProperties,
