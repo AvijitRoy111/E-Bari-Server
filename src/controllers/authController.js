@@ -13,7 +13,7 @@ const createUser = async (req, res) => {
             return res.status(400).json({ 
                 success: false, 
                 message: "You already have an account! Please sign in now. " 
-//             });
+            });
 //         }
 //         // ২.create new user
 //         const result = await userCollection.insertOne(user);
