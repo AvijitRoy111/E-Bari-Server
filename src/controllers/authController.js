@@ -3,7 +3,7 @@ const client = require('../helpers/client');
 
 const userCollection = client.db('E-Bari').collection('Users');
 
-// // create user............
+// create user............
 // const createUser = async (req, res) => {
 //     try {
 //         const user = req.body;
