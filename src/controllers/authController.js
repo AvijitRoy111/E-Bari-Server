@@ -15,7 +15,7 @@ const createUser = async (req, res) => {
                 message: "You already have an account! Please sign in now. " 
             });
         }
-//         // ২.create new user
+         // ২.create new user
 //         const result = await userCollection.insertOne(user);
 //         res.status(200).json({ 
 //             success: true, 
