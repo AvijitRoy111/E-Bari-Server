@@ -21,7 +21,7 @@ const createUser = async (req, res) => {
              success: true, 
              message: "Account created successfully! ", 
              data: result 
-//         });
+         });
         
 //     } catch (error) {
 //         res.status(500).json({ success: false, message: "Internal Server Error" });
