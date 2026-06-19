@@ -23,8 +23,8 @@ const createUser = async (req, res) => {
              data: result 
          });
         
-//     } catch (error) {
-//         res.status(500).json({ success: false, message: "Internal Server Error" });
+     } catch (error) {
+         res.status(500).json({ success: false, message: "Internal Server Error" });
 //     }
 // }
 
