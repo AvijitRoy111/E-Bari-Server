@@ -42,7 +42,7 @@ const createUser = async (req, res) => {
          success: true, 
          message: "User found", 
          data: user 
-//     });
+     });
 // }
 
 // // login user............
