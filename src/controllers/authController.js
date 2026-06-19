@@ -29,7 +29,7 @@ const createUser = async (req, res) => {
  }
 
   // get current user ........
-//  const getCurrentUser = async (req, res) =>{
+  const getCurrentUser = async (req, res) =>{
 //      const email =req.query.email;
 //     const user = await userCollection.findOne({email:email});
 //      if(!user){
