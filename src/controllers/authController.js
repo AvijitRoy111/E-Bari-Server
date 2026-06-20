@@ -50,7 +50,7 @@ const createUser = async (req, res) => {
      try {
          const { email, password } = req.body;
 
-//         // ১. user find
+         // ১. user find
 //         const user = await userCollection.findOne({ email: email });
         
 //          if (!user) {
