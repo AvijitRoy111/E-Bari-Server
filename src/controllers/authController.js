@@ -73,7 +73,7 @@ const createUser = async (req, res) => {
           res.status(200).json({ 
               success: true, 
               message: "Sign in successful! Welcome back.", 
-//              user: userData 
+              user: userData 
 //          });
 
 //      } catch (error) {
