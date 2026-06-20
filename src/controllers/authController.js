@@ -61,7 +61,7 @@ const createUser = async (req, res) => {
           }
 
           // ২. check password match
-//          if (user.password !== password) {
+          if (user.password !== password) {
 //              return res.status(401).json({ 
 //                  success: false, 
 //                  message: "Invalid password! Please try again." 
