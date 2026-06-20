@@ -66,7 +66,7 @@ const createUser = async (req, res) => {
                   success: false, 
                   message: "Invalid password! Please try again." 
               });
-//          }
+          }
 
 //          // ৩. if login successful
 //          const { password: _, ...userData } = user;
