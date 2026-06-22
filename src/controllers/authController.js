@@ -83,6 +83,6 @@ const createUser = async (req, res) => {
 
   module.exports = {
       createUser,
-//      getCurrentUser,
+      getCurrentUser,
 //      loginUser
 //  }
