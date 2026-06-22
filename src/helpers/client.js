@@ -14,7 +14,7 @@
      strict: true,
      deprecationErrors: true,
    }
-// });
+ });
 
 // module.exports = client ;
 
