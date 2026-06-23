@@ -3,7 +3,7 @@
      createUser,
      getCurrentUser,
      loginUser
-// } = require('../controllers/authController')
+ } = require('../controllers/authController')
 
 
 // const router = express.Router();
