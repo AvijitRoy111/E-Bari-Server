@@ -8,4 +8,4 @@ const router = express.Router();
 
 router.post('/booking', createBooking);
 
-// module.exports = router;
+module.exports = router;
