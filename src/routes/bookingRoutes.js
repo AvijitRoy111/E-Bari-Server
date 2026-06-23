@@ -4,7 +4,7 @@
 
 // } = require('../controllers/bookingController');
 
-const router = express.Router();
+// const router = express.Router();
 
 router.post('/booking', createBooking);
 
