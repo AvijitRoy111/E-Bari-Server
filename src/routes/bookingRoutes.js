@@ -1,6 +1,6 @@
  const express = require('express');
 // const {
-    createBooking
+    // createBooking
 
 } = require('../controllers/bookingController');
 
