@@ -2,7 +2,7 @@
  const {
      createUser,
      getCurrentUser,
-//     loginUser
+     loginUser
 // } = require('../controllers/authController')
 
 
