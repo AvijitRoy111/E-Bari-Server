@@ -6,6 +6,6 @@
 
 // const router = express.Router();
 
-router.get('/', getProperties);
+// router.get('/', getProperties);
 
 module.exports = router;
