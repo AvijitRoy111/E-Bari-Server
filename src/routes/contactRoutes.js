@@ -1,6 +1,6 @@
 const express = require('express');
 const {
-    // createContact
+    createContact
 
 // } = require('../controllers/contactController');
 
