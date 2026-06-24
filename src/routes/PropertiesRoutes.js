@@ -4,7 +4,7 @@
 
 // } = require('../controllers/PropertiesControllers');
 
-const router = express.Router();
+// const router = express.Router();
 
 router.get('/', getProperties);
 
