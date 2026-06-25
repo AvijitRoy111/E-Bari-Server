@@ -7,7 +7,7 @@
 
 
 // ----------- Import Routes -----------
-const propertiesRoutes = require('./src/routes/PropertiesRoutes');
+// const propertiesRoutes = require('./src/routes/PropertiesRoutes');
 const authRoutes = require('./src/routes/authRoutes');
 const contactRoutes = require('./src/routes/contactRoutes');
 const bookingRoutes = require('./src/routes/bookingRoutes');
