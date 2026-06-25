@@ -26,7 +26,7 @@
 
     // ----------- Routes -----------
     // app.use('/properties', propertiesRoutes);
-    app.use('/auth', authRoutes);
+    // app.use('/auth', authRoutes);
     app.use('/contacts', contactRoutes);
     app.use('/bookings', bookingRoutes);
 
