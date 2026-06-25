@@ -19,7 +19,7 @@
 // app.use(express.json());
 
 // async function run() {
-  try {
+  // try {
     await client.connect();
     console.log("MongoDB connected successfully !");
 
