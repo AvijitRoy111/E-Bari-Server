@@ -18,7 +18,7 @@
 // app.use(cors());
 // app.use(express.json());
 
-async function run() {
+// async function run() {
   try {
     await client.connect();
     console.log("MongoDB connected successfully !");
