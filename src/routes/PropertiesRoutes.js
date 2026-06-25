@@ -2,7 +2,7 @@ const express = require('express');
 const {
     getProperties,
 
-// } = require('../controllers/PropertiesControllers');
+} = require('../controllers/PropertiesControllers');
 
 // const router = express.Router();
 
