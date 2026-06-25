@@ -21,7 +21,7 @@
 // async function run() {
   // try {
     // await client.connect();
-    console.log("MongoDB connected successfully !");
+    // console.log("MongoDB connected successfully !");
 
 
     // ----------- Routes -----------
